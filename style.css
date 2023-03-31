@@ -62,13 +62,17 @@ span {
     font-weight: 800;
 }
 
-.banner p {
+.banner .container p {
+    color: white;
     font-size: 40px;
     width: 200px;
 }
 
 /*Fim do Banner*/
 /*Começo do Social*/
+.social{
+    margin: 3%;
+}
 .social .container {
     justify-content: space-around;
 }
@@ -78,7 +82,7 @@ span {
     margin-top: 5px;
 }
 .container .card{
-    background-color: #cdcdcd;
+    /*background-color: #cdcdcd;*/
     border-radius: 10px;
     width: 290px;
     display: flex;
@@ -92,4 +96,19 @@ span {
 .card p{
     width: 80%;
     margin: auto;
+}
+
+.footer{
+    width: 100%;
+    background-color: #32B0CD;
+    color: white;
+}
+.footer .container{
+    justify-content: center;
+    height: 150px;
+    align-items: center;
+}
+
+.footer .container p{
+    color: green;
 }
