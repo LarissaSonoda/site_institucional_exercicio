@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login - AqcuaTec</title>
+    <title>Cadastro - AqcuaTec</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style-form.css">
 </head>
@@ -17,7 +17,7 @@
         <div class="container">
             <h1>Acquatec</h1>
             <ul>
-                <li>Home</li>
+                <li><a href="index.html">Home</a></li>
                 <li>
                     <a href="https://www.google.com.br">
                         Simulador
@@ -41,13 +41,17 @@
     <!-- Começo do Banner -->
     <div class="banner">
         <div class="container">
-            <div class="form">
-                <h1>Olá de volta!</h1>
+            <div class="formulario">
+                <h1>Bem-vindo!</h1>
+                <h1 class="label">Nome:</h1>
+                <input type="text" placeholder="Seu nome">
                 <h1 class="label">E-mail:</h1>
-                <input type="email" placeholder="Login">
+                <input type="email" placeholder="meuemail@provedor.com">
                 <h1 class="label">Senha:</h1>
                 <input type="password" placeholder="*****">
-                <button>Entrar</button>
+                <h1 class="label">Confirmação da Senha:</h1>
+                <input type="text" placeholder="******">
+                <button>Cadastrar</button>
             </div>
         </div>
     </div>
@@ -59,6 +63,7 @@
             <p>
                 Feito com amor por um aluno SPTech &hearts; 2023
             </p>
+            <p>v1.0.0</p>
         </div>
     </div>
     <!--Fim do footer-->

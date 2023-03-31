@@ -107,8 +107,10 @@ span {
     justify-content: center;
     height: 150px;
     align-items: center;
+    flex-direction: column;
 }
 
 .footer .container p{
-    color: green;
+    color: white;
+    margin: 0;
 }
